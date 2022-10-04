@@ -1,0 +1,21 @@
+fun main () {
+
+    val isSamboGuilty = true
+    val isFalse = false
+
+    if (isSamboGuilty) println("He will be jailed") else println("Something wrong with this country")
+
+    val lamaTahanan = if (isSamboGuilty) 50 else 0
+
+    println(lamaTahanan)
+
+
+    val num = 4
+
+    val result = when {
+        num > 5 && num < 7-> "Positive"
+        num > 10 -> "Negati ve"
+        else -> "out of bound"
+    }
+    println(result)
+}
